@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <div class="div">
+  <div class="div-2">
+    <div class="div-3">
+      <span style="font-size: 26px">target</span>
+      <span style="font-size: 78px; letter-spacing: -4.68px">M</span>
+      <span style="font-size: 26px; letter-spacing: -1.56px">rental</span>
+    </div>
+    <div class="div-4">
+      <div class="div-5">
+        <button onclick="scrollToElement('park')" class="div-6">Автопарк</button>
+        <button onclick="scrollToElement('about')" class="div-7">Про нас</button>
+        <button onclick="scrollToElement('conditions')" class="div-8">Умови прокату</button>
+      </div>
+      <button onclick="scrollToElement('park')" class="div-9">Орендувати</button>
+    </div>
+  </div>
+  <div class="paste"></div>
+  <div class="div-10">
+    <div class="div-11">ПОДОБОВА ОРЕНДА АВТОМОБІЛІВ У ЛЬВОВІ</div>
+    <div class="div-12">
+      <div class="div-13">
+        <div class="column">
+          <div class="div-14">
+            <div class="div-15">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c123b3e6fb239798042878255fd71cd0ed947b2abff89e5e5b7085add0201e7?"
+                class="img"
+              />
+              <div class="div-16">Великий вибір автомобілів</div>
+            </div>
+            <div class="div-17">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/cebf8d33012cc47d642bcc9423f4e34fa7aca0fd159065bf89045f23623a8305?"
+                class="img"
+              />
+              <div class="div-18">Повне страхування(КАСКО,ОСАГО)</div>
+            </div>
+            <div class="div-19">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/cebf8d33012cc47d642bcc9423f4e34fa7aca0fd159065bf89045f23623a8305?"
+                class="img"
+              />
+              <div class="div-20">Доставка за адресою</div>
+            </div>
+            <div class="div-21">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/cebf8d33012cc47d642bcc9423f4e34fa7aca0fd159065bf89045f23623a8305?"
+                class="img"
+              />
+              <div class="div-22">Передача авто до 8 хвилин</div>
+            </div>
+            <div class="div-23">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/cebf8d33012cc47d642bcc9423f4e34fa7aca0fd159065bf89045f23623a8305?"
+                class="img-2"
+              />
+              <div class="div-24">Цілодобова підтримка 24/7</div>
+            </div>
+            <button onclick="scrollToElement('park')" class="div-25">ОРЕНДУВАТИ З ЗНИЖКОЮ 15%</button>
+          </div>
+        </div>
+        <div class="column-2">
+          <img src="{{ url_for('static', filename='images/arteum-ro-TVFx7iFAAdQ-unsplash.png') }}" >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="div-26">ПОПУЛЯРНІ АВТО</div>
+  <div class="div-27">
+    <div class="div-28">
+      <div class="div-29">ЕКОНОМ КЛАС</div>
+      <div class="div-30"></div>
+    </div>
+    <div class="div-31">СЕРЕДНІЙ КЛАС</div>
+    
+      
+      <div class="div-32">БІЗНЕС КЛАС</div>
+
+    
+    
+    <div class="div-33">ПРЕМІУМ КЛАС</div>
+  </div>
+  <div class="div-34">
+    <div class="div-35">
+      <div class="column-3">
+        <div class="div-36">
+          <div class="div-37">
+            <div class="div-38">1.0 л</div>
+            <div class="div-39">
+              <div class="div-40">ford fiesta 6</div>
+              <div class="div-41">
+                <div class="div-42"></div>
+                <div class="div-43">Бензин</div>
+                <div class="div-44"></div>
+                <div class="div-45">Автомат</div>
+              </div>
+            </div>
+          </div>
+          <img src="{{ url_for('static', filename='images/ford.png') }}" >
+          <div class="div-46">
+            <div class="div-47">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                class="img-5"
+              />
+              <div class="div-48">А/С</div>
+            </div>
+            <div class="div-49">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                class="img-6"
+              />
+              <div class="div-50">5 л/100 км</div>
+            </div>
+            <div class="div-51">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                class="img-7"
+              />
+              <div class="div-52">276 л</div>
+            </div>
+          </div>
+          <div class="div-53">
+            <div class="div-54">
+              <div class="div-55">1000 UAH</div>
+              <div class="div-56">1250 UAH</div>
+              <div class="div-57">1400 UAH</div>
+              <div class="div-58">1500 UAH</div>
+
+              <div id="car_1">
+        
+                <p>Статус оренди: {{ cars[0][2] }}</p>
+        
+              </div>
+            </div>
+            <div class="div-59">
+              <div class="div-60">від 26 діб</div>
+              <div class="div-61">10-15 діб</div>
+              <div class="div-62">4-9 діб</div>
+              <div class="div-63">1-3 діб</div>
+            </div>
+          </div>
+          
+          <form action="{{ url_for('update_status', car_id=1) }}" method="post">
+            <button type="submit" class="div-64">Орендувати</button>
+          </form>
+
+
+        </div>
+      </div>
+      <div class="column-4">
+        <div class="div-65">
+          <div class="div-66">renault logan</div>
+          <div class="div-67">
+            <div class="div-68">1.5 л</div>
+            <div class="div-69"></div>
+            <div class="div-70">Дизель</div>
+            <div class="div-71"></div>
+            <div class="div-72">Механіка</div>
+          </div>
+          <img src="{{ url_for('static', filename='images/logan.png') }}" >
+          <div class="div-73">
+            <div class="div-74">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                class="img-9"
+              />
+              <div class="div-75">А/С</div>
+            </div>
+            <div class="div-76">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                class="img-10"
+              />
+              <div class="div-77">4 л/100 км</div>
+            </div>
+            <div class="div-78">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                class="img-11"
+              />
+              <div class="div-79">410 л</div>
+            </div>
+          </div>
+          <div class="div-80">
+            <div class="div-81">
+              <div class="div-82">800 UAH</div>
+              <div class="div-83">1000 UAH</div>
+              <div class="div-84">1100 UAH</div>
+              <div class="div-85">1200 UAH</div>
+
+
+              <div id="car_2">
+        
+                <p>Статус оренди: {{ cars[1][2] }}</p>
+
+              </div>
+
+
+
+
+
+            </div>
+            <div class="div-86">
+              <div class="div-87">від 26 діб</div>
+              <div class="div-88">10-15 діб</div>
+              <div class="div-89">4-9 діб</div>
+              <div class="div-90">1-3 діб</div>
+            </div>
+          </div>
+          
+
+
+          <form action="{{ url_for('update_status', car_id=2) }}" method="post">
+            <button type="submit" class="div-91">Орендувати</button>
+          </form>
+
+
+
+
+        </div>
+      </div>
+      <div class="column-5">
+        <div class="div-92">
+          <div class="div-93">citroen с-elysee</div>
+          <div class="div-94">
+            <div class="div-95">1.6 л</div>
+            <div class="div-96"></div>
+            <div class="div-97">Бензин</div>
+            <div class="div-98"></div>
+            <div class="div-99">Автомат</div>
+          </div>
+          <img src="{{ url_for('static', filename='images/citroen.png') }}" >
+          <div class="div-100">
+            <div class="div-101">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                class="img-13"
+              />
+              <div class="div-102">А/С</div>
+            </div>
+            <div class="div-103">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                class="img-14"
+              />
+              <div class="div-104">8 л/100 км</div>
+            </div>
+            <div class="div-105">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                class="img-15"
+              />
+              <div class="div-106">506 л</div>
+            </div>
+          </div>
+          <div class="div-107">
+            <div class="div-108">
+              <div class="div-109">1000 UAH</div>
+              <div class="div-110">1250 UAH</div>
+              <div class="div-111">1400 UAH</div>
+              <div class="div-112">1500 UAH</div>
+
+              <div id="car_3">
+        
+                <p>Статус оренди: {{ cars[2][2] }}</p>
+
+              </div>
+
+
+
+
+            </div>
+            <div class="div-113">
+              <div class="div-114">від 26 діб</div>
+              <div class="div-115">10-15 діб</div>
+              <div class="div-116">4-9 діб</div>
+              <div class="div-117">1-3 діб</div>
+            </div>
+          </div>
+          
+
+
+          <form action="{{ url_for('update_status', car_id=3) }}" method="post">
+            <button type="submit" class="div-118">Орендувати</button>
+          </form>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="conditions" class="div-119">УМОВИ</div>
+  <div class="div-120">
+    <div class="div-121">
+      <div class="column-6">
+        <div class="div-122">
+          <div class="div-123">
+            <img src="{{ url_for('static', filename='images/man.png') }}" >
+            <div class="div-124">Вік від 21-го року</div>
+          </div>
+          <div class="div-125">
+            <img src="{{ url_for('static', filename='images/money.png') }}" >
+            <div class="div-126">
+              Застава на час користування залежить від класу авто. Сума від 7000
+              грн
+            </div>
+          </div>
+          <div class="div-127">
+            <img src="{{ url_for('static', filename='images/car.png') }}" >
+            <div class="div-128">Стаж водіння від 2-х років</div>
+          </div>
+          <div class="div-129">
+            <img src="{{ url_for('static', filename='images/clock-bold.png') }}" >
+            <div class="div-130">Мінімальний термін оренди - 1 доба</div>
+          </div>
+        </div>
+      </div>
+      <div class="column-7">
+        
+        <img src="{{ url_for('static', filename='images/arteum-ro-gwACoyKkJ1c-unsplash1.png') }}" >
+      </div>
+    </div>
+  </div>
+  <div class="div-131">НАШІ ПЕРЕВАГИ</div>
+  <div class="div-132">
+    <div class="div-133">
+      <div class="div-134">01</div>
+      <div class="div-135">Авто повністю застрахованні</div>
+    </div>
+    <div class="div-136">
+      <div class="div-137">02</div>
+      <div class="div-138">
+        Ми доставляємо авто за адресою протягом 40 хвилин
+      </div>
+    </div>
+    <div class="div-139">
+      <div class="div-140">03</div>
+      <div class="div-141">Цілодобова онлайн-підтримка</div>
+    </div>
+    <div class="div-142">
+      <div class="div-143">04</div>
+      <div class="div-144">Видача авто в чистому вигляді та з повним баком</div>
+    </div>
+    <div class="div-145">
+      <div class="div-146">05</div>
+      <div class="div-147">Допомога в дорозі</div>
+    </div>
+  </div>
+  <div id="park" class="div-148">ПАРК</div>
+  <div class="div-149">
+    <div class="div-150">ЕКОНОМ КЛАС</div>
+    <div class="div-151">
+      <div class="div-152">
+        <div class="column-8">
+          <div class="div-153">
+            <div class="div-154">
+              <div class="div-155">1.0 л</div>
+              <div class="div-156">
+                <div class="div-157">ford fiesta 6</div>
+                <div class="div-158">
+                  <div class="div-159"></div>
+                  <div class="div-160">Бензин</div>
+                  <div class="div-161"></div>
+                  <div class="div-162">Автомат</div>
+                </div>
+              </div>
+            </div>
+            <img src="{{ url_for('static', filename='images/ford.png') }}" >
+            <div class="div-163">
+              <div class="div-164">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-22"
+                />
+                <div class="div-165">А/С</div>
+              </div>
+              <div class="div-166">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-23"
+                />
+                <div class="div-167">5 л/100 км</div>
+              </div>
+              <div class="div-168">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-24"
+                />
+                <div class="div-169">276 л</div>
+              </div>
+            </div>
+            <div class="div-170">
+              <div class="div-171">
+                <div class="div-172">1000 UAH</div>
+                <div class="div-173">1250 UAH</div>
+                <div class="div-174">1400 UAH</div>
+                <div class="div-175">1500 UAH</div>
+
+
+                <div id="car_1">
+                  <h3>Модель: Ford Fiesta</h3>
+                  <p>Статус оренди: {{ cars[0][2] }}</p>
+                  
+                </div>
+
+
+
+              </div>
+              <div class="div-176">
+                <div class="div-177">від 26 діб</div>
+                <div class="div-178">10-15 діб</div>
+                <div class="div-179">4-9 діб</div>
+                <div class="div-180">1-3 діб</div>
+              </div>
+            </div>
+
+
+            <form action="{{ url_for('update_status', car_id=1) }}" method="post">
+              <button type="submit" class="div-181">Орендувати </button>
+            </form>
+
+
+
+            
+          </div>
+        </div>
+        <div class="column-9">
+          <div class="div-182">
+            <div class="div-183">renault logan</div>
+            <div class="div-184">
+              <div class="div-185">1.5 л</div>
+              <div class="div-186"></div>
+              <div class="div-187">Дизель</div>
+              <div class="div-188"></div>
+              <div class="div-189">Механіка</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/logan.png') }}" >
+            <div class="div-190">
+              <div class="div-191">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-26"
+                />
+                <div class="div-192">А/С</div>
+              </div>
+              <div class="div-193">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-27"
+                />
+                <div class="div-194">4 л/100 км</div>
+              </div>
+              <div class="div-195">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-28"
+                />
+                <div class="div-196">410 л</div>
+              </div>
+            </div>
+            <div class="div-197">
+              <div class="div-198">
+                <div class="div-199">800 UAH</div>
+                <div class="div-200">1000 UAH</div>
+                <div class="div-201">1100 UAH</div>
+                <div class="div-202">1200 UAH</div>
+
+
+
+                <div id="car_2">
+                  <h3>Модель: Renault Logan</h3>
+                  <p>Статус оренди: {{ cars[1][2] }}</p>
+
+                </div>
+
+
+
+
+
+              </div>
+              <div class="div-203">
+                <div class="div-204">від 26 діб</div>
+                <div class="div-205">10-15 діб</div>
+                <div class="div-206">4-9 діб</div>
+                <div class="div-207">1-3 діб</div>
+              </div>
+            </div>
+
+
+              <form action="{{ url_for('update_status', car_id=2) }}" method="post" >
+                <button type="submit" class="div-208">Орендувати</button>
+              </form>
+
+
+
+
+          </div>
+        </div>
+        <div class="column-10">
+          <div class="div-209">
+            <div class="div-210">citroen с-elysee</div>
+            <div class="div-211">
+              <div class="div-212">1.6 л</div>
+              <div class="div-213"></div>
+              <div class="div-214">Бензин</div>
+              <div class="div-215"></div>
+              <div class="div-216">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/citroen.png') }}" >
+            <div class="div-217">
+              <div class="div-218">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-30"
+                />
+                <div class="div-219">А/С</div>
+              </div>
+              <div class="div-220">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-31"
+                />
+                <div class="div-221">8 л/100 км</div>
+              </div>
+              <div class="div-222">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-32"
+                />
+                <div class="div-223">506 л</div>
+              </div>
+            </div>
+            <div class="div-224">
+              <div class="div-225">
+                <div class="div-226">1000 UAH</div>
+                <div class="div-227">1250 UAH</div>
+                <div class="div-228">1400 UAH</div>
+                <div class="div-229">1500 UAH</div>
+
+
+                <div id="car_3">
+                  <h3>Модель: Renault Logan</h3>
+                  <p>Статус оренди: {{ cars[2][2] }}</p>
+
+                </div>
+
+
+
+
+              </div>
+              <div class="div-230">
+                <div class="div-231">від 26 діб</div>
+                <div class="div-232">10-15 діб</div>
+                <div class="div-233">4-9 діб</div>
+                <div class="div-234">1-3 діб</div>
+              </div>
+            </div>
+            
+
+
+            <form action="{{ url_for('update_status', car_id=3) }}" method="post">
+              <button type="submit" class="div-235" >Орендувати</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="div-237">БІЗНЕС КЛАС</div>
+    <div class="div-238">
+      <div class="div-239">
+        <div class="column-11">
+          <div class="div-240">
+            <div class="div-241">honda accord x</div>
+            <div class="div-242">
+              <div class="div-243">1.5 л</div>
+              <div class="div-244"></div>
+              <div class="div-245">Бензин</div>
+              <div class="div-246"></div>
+              <div class="div-247">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/honda.png') }}" >
+            <div class="div-248">
+              <div class="div-249">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-34"
+                />
+                <div class="div-250">А/С</div>
+              </div>
+              <div class="div-251">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-35"
+                />
+                <div class="div-252">8 л/100 км</div>
+              </div>
+              <div class="div-253">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-36"
+                />
+                <div class="div-254">473 л</div>
+              </div>
+            </div>
+            <div class="div-255">
+              <div class="div-256">
+                <div class="div-257">1700 UAH</div>
+                <div class="div-258">2200 UAH</div>
+                <div class="div-259">2500 UAH</div>
+                <div class="div-260">2800 UAH</div>
+
+                <div id="car_4">
+                  
+                  <p>Статус оренди: {{ cars[3][2] }}</p>
+
+                </div>
+
+
+
+              </div>
+              <div class="div-261">
+                <div class="div-262">від 26 діб</div>
+                <div class="div-263">10-15 діб</div>
+                <div class="div-264">4-9 діб</div>
+                <div class="div-265">1-3 діб</div>
+              </div>
+            </div>
+
+
+
+
+            
+
+            <form action="{{ url_for('update_status', car_id=4) }}" method="post">
+              <button type="submit" class="div-266">орендувати</button>
+            </form>
+
+          </div>
+        </div>
+        <div class="column-12">
+          <div class="div-267">
+            <div class="div-268">toyota camry 70</div>
+            <div class="div-269">
+              <div class="div-270">2.5 л</div>
+              <div class="div-271"></div>
+              <div class="div-272">Бензин</div>
+              <div class="div-273"></div>
+              <div class="div-274">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/camry.png') }}" >
+            <div class="div-275">
+              <div class="div-276">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-38"
+                />
+                <div class="div-277">А/С</div>
+              </div>
+              <div class="div-278">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-39"
+                />
+                <div class="div-279">9 л/100 км</div>
+              </div>
+              <div class="div-280">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-40"
+                />
+                <div class="div-281">493 л</div>
+              </div>
+            </div>
+            <div class="div-282">
+              <div class="div-283">
+                <div class="div-284">1850 UAH</div>
+                <div class="div-285">2350 UAH</div>
+                <div class="div-286">2650 UAH</div>
+                <div class="div-287">2950 UAH</div>
+
+
+                <div id="car_5">
+        
+                <p>Статус оренди: {{ cars[4][2] }}</p>
+
+                </div>
+
+
+
+
+
+
+
+
+
+              </div>
+              <div class="div-288">
+                <div class="div-289">від 26 діб</div>
+                <div class="div-290">10-15 діб</div>
+                <div class="div-291">4-9 діб</div>
+                <div class="div-292">1-3 діб</div>
+              </div>
+            </div>
+            
+
+
+            <form action="{{ url_for('update_status', car_id=5) }}" method="post">
+              <button type="submit" class="div-293">Орендувати</button>
+            </form>
+          </div>
+        </div>
+        <div class="column-13">
+          <div class="div-294">
+            <div class="div-295">mercedes C300</div>
+            <div class="div-296">
+              <div class="div-297">3.0 л</div>
+              <div class="div-298"></div>
+              <div class="div-299">Бензин</div>
+              <div class="div-300"></div>
+              <div class="div-301">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/c300.png') }}" >
+            <div class="div-302">
+              <div class="div-303">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-42"
+                />
+                <div class="div-304">А/С</div>
+              </div>
+              <div class="div-305">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-43"
+                />
+                <div class="div-306">9 л/100 км</div>
+              </div>
+              <div class="div-307">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-44"
+                />
+                <div class="div-308">475 л</div>
+              </div>
+            </div>
+            <div class="div-309">
+              <div class="div-310">
+                <div class="div-311">2000 UAH</div>
+                <div class="div-312">2700 UAH</div>
+                <div class="div-313">2900 UAH</div>
+                <div class="div-314">3200 UAH</div>
+
+
+                <div id="car_6">
+        
+                <p>Статус оренди: {{ cars[5][2] }}</p>
+
+                </div>
+
+
+
+
+              </div>
+              <div class="div-315">
+                <div class="div-316">від 26 діб</div>
+                <div class="div-317">10-15 діб</div>
+                <div class="div-318">4-9 діб</div>
+                <div class="div-319">1-3 діб</div>
+              </div>
+            </div>
+            
+
+
+
+            <form action="{{ url_for('update_status', car_id=6) }}" method="post">
+              <button type="submit" class="div-320">Орендувати</button>
+            </form>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div-321">ПРЕМІУМ КЛАС</div>
+    <div class="div-322">
+      <div class="div-323">
+        <div class="column-14">
+          <div class="div-324">
+            <div class="div-325">lexus ES</div>
+            <div class="div-326">
+              <div class="div-327">2.5 л</div>
+              <div class="div-328"></div>
+              <div class="div-329">Гібрид</div>
+              <div class="div-330"></div>
+              <div class="div-331">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/lexus.png') }}" >
+            <div class="div-332">
+              <div class="div-333">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-46"
+                />
+                <div class="div-334">А/С</div>
+              </div>
+              <div class="div-335">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-47"
+                />
+                <div class="div-336">5 л/100 км</div>
+              </div>
+              <div class="div-337">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-48"
+                />
+                <div class="div-338">342 л</div>
+              </div>
+            </div>
+            <div class="div-339">
+              <div class="div-340">
+                <div class="div-341">3450 UAH</div>
+                <div class="div-342">4000 UAH</div>
+                <div class="div-343">4600 UAH</div>
+                <div class="div-344">5200 UAH</div>
+
+                <div id="car_7">
+        
+                <p>Статус оренди: {{ cars[6][2] }}</p>
+
+                </div>
+
+
+              </div>
+              <div class="div-345">
+                <div class="div-346">від 26 діб</div>
+                <div class="div-347">10-15 діб</div>
+                <div class="div-348">4-9 діб</div>
+                <div class="div-349">1-3 діб</div>
+              </div>
+            </div>
+            
+
+            <form action="{{ url_for('update_status', car_id=7) }}" method="post">
+              <button type="submit" class="div-350">Орендувати</button>
+            </form>
+
+
+
+
+          </div>
+        </div>
+        <div class="column-15">
+          <div class="div-351">
+            <div class="div-352">VW touareg</div>
+            <div class="div-353">
+              <div class="div-354">3.0 л</div>
+              <div class="div-355"></div>
+              <div class="div-356">Дизель</div>
+              <div class="div-357"></div>
+              <div class="div-358">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/volks.png') }}" >
+            <div class="div-359">
+              <div class="div-360">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-50"
+                />
+                <div class="div-361">А/С</div>
+              </div>
+              <div class="div-362">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-51"
+                />
+                <div class="div-363">7 л/100 км</div>
+              </div>
+              <div class="div-364">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-52"
+                />
+                <div class="div-365">810 л</div>
+              </div>
+            </div>
+            <div class="div-366">
+              <div class="div-367">
+                <div class="div-368">4700 UAH</div>
+                <div class="div-369">5600 UAH</div>
+                <div class="div-370">6300 UAH</div>
+                <div class="div-371">7000 UAH</div>
+
+
+                <div id="car_8">
+        
+                <p>Статус оренди: {{ cars[7][2] }}</p>
+
+                </div>
+
+
+              </div>
+              <div class="div-372">
+                <div class="div-373">від 26 діб</div>
+                <div class="div-374">10-15 діб</div>
+                <div class="div-375">4-9 діб</div>
+                <div class="div-376">1-3 діб</div>
+              </div>
+            </div>
+            
+
+            <form action="{{ url_for('update_status', car_id=8) }}" method="post">
+              <button type="submit" class="div-377">Орендувати</button>
+            </form>
+
+
+
+          </div>
+        </div>
+        <div class="column-16">
+          <div class="div-378">
+            <div class="div-379">BMW X5</div>
+            <div class="div-380">
+              <div class="div-381">2.0 л</div>
+              <div class="div-382"></div>
+              <div class="div-383">Дизель</div>
+              <div class="div-384"></div>
+              <div class="div-385">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/bmwx5.png') }}" >
+            <div class="div-386">
+              <div class="div-387">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                  class="img-54"
+                />
+                <div class="div-388">А/С</div>
+              </div>
+              <div class="div-389">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                  class="img-55"
+                />
+                <div class="div-390">8 л/100 км</div>
+              </div>
+              <div class="div-391">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                  class="img-56"
+                />
+                <div class="div-392">645 л</div>
+              </div>
+            </div>
+            <div class="div-393">
+              <div class="div-394">
+                <div class="div-395">4200 UAH</div>
+                <div class="div-396">5200 UAH</div>
+                <div class="div-397">5800 UAH</div>
+                <div class="div-398">6500 UAH</div>
+
+                <div id="car_9">
+        
+                  <p>Статус оренди: {{ cars[8][2] }}</p>
+
+                </div>
+
+
+
+              </div>
+              <div class="div-399">
+                <div class="div-400">від 26 діб</div>
+                <div class="div-401">10-15 діб</div>
+                <div class="div-402">4-9 діб</div>
+                <div class="div-403">1-3 діб</div>
+              </div>
+            </div>
+
+            <form action="{{ url_for('update_status', car_id=9) }}" method="post">
+              <button type="submit" class="div-404" >Орендувати</button>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div-405">ВАНТАЖНИЙ КЛАС</div>
+    <div class="div-406">
+      <div class="div-407">
+        <div class="column-17">
+          <div class="div-408">
+            <div class="div-409">mercedes sprinter</div>
+            <div class="div-410">
+              <div class="div-411">3.0 л</div>
+              <div class="div-412"></div>
+              <div class="div-413">Дизель</div>
+              <div class="div-414"></div>
+              <div class="div-415">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/sprinter.png') }}" >
+
+            <div class="div-416">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                class="img-58"
+              />
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                class="img-59"
+              />
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                class="img-60"
+              />
+            </div>
+            <div class="div-417">
+              <div class="div-418">А/С</div>
+              <div class="div-419">11 л/100 км</div>
+              <div class="div-420">2 т</div>
+            </div>
+            <div class="div-421">
+              <div class="div-422">
+                <div class="div-423">6100 UAH</div>
+                <div class="div-424">6700 UAH</div>
+                <div class="div-425">7100 UAH</div>
+                <div class="div-426">7500 UAH</div>
+
+                  <div id="car_10">
+        
+                    <p>Статус оренди: {{ cars[9][2] }}</p>
+
+                  </div>
+              </div>
+              <div class="div-427">
+                <div class="div-428">від 26 діб</div>
+                <div class="div-429">10-15 діб</div>
+                <div class="div-430">4-9 діб</div>
+                <div class="div-431">1-3 діб</div>
+              </div>
+            </div>
+
+
+            
+
+
+            <form action="{{ url_for('update_status', car_id=10) }}" method="post">
+              <button type="submit" class="div-432">Орендувати</button>
+            </form>
+
+          </div>
+        </div>
+        <div class="column-18">
+          <div class="div-433">
+            <div class="div-434">mercedes atego (1222)</div>
+            <div class="div-435">
+              <div class="div-436">3.5 л</div>
+              <div class="div-437"></div>
+              <div class="div-438">Дизель</div>
+              <div class="div-439"></div>
+              <div class="div-440">Механіка</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/atego.png') }}" >
+            <div class="div-441">
+              <img
+
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                class="img-62"
+              />
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                class="img-63"
+              />
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                class="img-64"
+              />
+            </div>
+            <div class="div-442">
+              <div class="div-443">А/С</div>
+              <div class="div-444">17 л/100 км</div>
+              <div class="div-445">4 т</div>
+            </div>
+            <div class="div-446">
+              <div class="div-447">
+                <div class="div-448">7000 UAH</div>
+                <div class="div-449">7500 UAH</div>
+                <div class="div-450">8100 UAH</div>
+                <div class="div-451">8700 UAH</div>
+
+
+                <div id="car_11">
+        
+                  <p>Статус оренди: {{ cars[10][2] }}</p>
+
+                </div>
+
+              </div>
+              <div class="div-452">
+                <div class="div-453">від 26 діб</div>
+                <div class="div-454">10-15 діб</div>
+                <div class="div-455">4-9 діб</div>
+                <div class="div-456">1-3 діб</div>
+              </div>
+            </div>
+            
+
+            <form action="{{ url_for('update_status', car_id=11) }}" method="post">
+              <button type="submit" class="div-457">Орендувати</button>
+            </form>
+
+
+
+          </div>
+        </div>
+        <div class="column-19">
+          <div class="div-458">
+            <div class="div-459">mercedes atego (2545)</div>
+            <div class="div-460">
+              <div class="div-461">4.0 л</div>
+              <div class="div-462"></div>
+              <div class="div-463">Дизель</div>
+              <div class="div-464"></div>
+              <div class="div-465">Автомат</div>
+            </div>
+            <img src="{{ url_for('static', filename='images/mersatego.png') }}" >
+            <div class="div-466">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff77bbef6de072ba1822ab3afdfb9f783b9d98353aec9ec533c818ec1c622e54?"
+                class="img-66"
+              />
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3e7e96c7347abb8f3f21cbe810bab4689afc71ea3ca1f891c44deba65faedef?"
+                class="img-67"
+              />
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b714b8bd2374385d9e1904fd771b1b8150c1c69baf5420585e254a1a043e1c0?"
+                class="img-68"
+              />
+            </div>
+            <div class="div-467">
+              <div class="div-468">А/С</div>
+              <div class="div-469">15 л/100 км</div>
+              <div class="div-470">5 т</div>
+            </div>
+            <div class="div-471">
+              <div class="div-472">
+                <div class="div-473">7900 UAH</div>
+                <div class="div-474">8400 UAH</div>
+                <div class="div-475">8900 UAH</div>
+                <div class="div-476">9500 UAH</div>
+
+
+                <div id="car_12">
+                
+                  <p>Статус оренди: {{ cars[11][2] }}</p>
+
+                </div>
+
+              </div>
+              <div class="div-477">
+                <div class="div-478">від 26 діб</div>
+                <div class="div-479">10-15 діб</div>
+                <div class="div-480">4-9 діб</div>
+                <div class="div-481">1-3 діб</div>
+              </div>
+            </div>
+            
+
+            <form action="{{ url_for('update_status', car_id=12) }}" method="post">
+              <button type="submit" class="div-482">Орендувати</button>
+            </form>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="div-483">ПРО НАС</div>
+  </div>
+  <div class="div-484">
+    <div class="div-485">
+      <div class="column">
+        <div class="div-486">
+          <div class="div-487">7 РОКІВ НА РИНКУ УКРАЇНИ</div>
+          <div class="div-488">
+            Працюємо на ринку України вже понад 7 років та маємо значний досвід
+            у галузі подобової оренди автомобілів
+          </div>
+          <div class="div-489">ВЕЛИКИЙ ВИБІР АВТОМОБІЛІВ</div>
+          <div class="div-490">
+            Наш парк складається повністю застрахованих автомобілів, що
+            регулярно проходять технічні перевірки та обслуговування
+          </div>
+        </div>
+      </div>
+      <div class="column-20">
+        
+        <img src="{{ url_for('static', filename='images/oliur-ovrOPhu8vSw-unsplash.png') }}" >
+      </div>
+    </div>
+  </div>
+  <div class="div-491">
+    <div class="div-492">
+      <span style="font-size: 26px">target</span>
+      <span style="font-size: 78px; letter-spacing: -4.68px">M</span>
+      <span style="font-size: 26px; letter-spacing: -1.56px">rental</span>
+    </div>
+    <div class="div-493">
+      <div class="div-494">Підтримка +380981710093</div>
+      <div class="div-495">roman20066728@gmail.com</div>
+      <button onclick="scrollToElement('park')" class="div-496">Орендувати</button>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+
+<script>
+  function scrollToElement(elementId) {
+    var element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
+<script>
+        // Оновлюємо сторінку кожні 5 секунд
+        setInterval(function() {
+            location.reload();
+        }, 5000);
+</script>
+
+</html>
